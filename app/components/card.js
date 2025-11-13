@@ -20,11 +20,9 @@ export default function EntryCard({ entry, onEdit, onDelete }) {
         <div className="entry-date">
           {formatDate(entry.created_at)}
         </div>
-        {entry.description && (
-          <div className="entry-description">
-            {entry.description}
-          </div>
-        )}
+        <div className="entry-description">
+          {entry.description || ''}
+        </div>
       </div>
 
       <Space className="entry-actions" size="small">

@@ -1,6 +1,9 @@
 Hi and welcome!
 
 To deploy this app with docker:
+
+- First, install [Docker Compose](https://docs.docker.com/compose/install)
+- To deploy the app, run the following commands in a directory of your choice
 ```sh
 git clone https://github.com/rakrab/angels-table.git
 cd angels-table

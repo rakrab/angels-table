@@ -5,12 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "init-db": "node scripts/init-db.js"
   },
   "dependencies": {
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "antd": "^5.28.1",
+    "next": "16.0.2",
     "react": "19.2.0",
+    "react-confetti": "^6.4.0",
     "react-dom": "19.2.0",
-    "next": "16.0.2"
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

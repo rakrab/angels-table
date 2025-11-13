@@ -37,7 +37,7 @@ export async function PUT(request, { params }) {
       );
     }
     
-    if (description !== undefined && typeof description !== 'string') {
+    if (description !== undefined && description !== '' && description !== null && typeof description !== 'string') {
       return NextResponse.json(
         { error: 'Description must be a string' },
         { status: 400 }

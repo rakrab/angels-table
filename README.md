@@ -16,7 +16,7 @@ git clone https://github.com/rakrab/angels-table.git
 cd angels-table
 docker compose up --build 
 ```
-- If the database gets deleted or corrupted, you can re-initialize it with `node scripts/init-db.js`
+- If something goes wrong or the database gets deleted or corrupted, you can re-initialize it with `node scripts/init-db.js`
 
 #### To use this app in development:
 ```sh

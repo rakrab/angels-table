@@ -1,7 +1,15 @@
-Hi and welcome!
 
-To deploy this app with docker:
+# 👽 angels table
 
+> Small list-like app with SQLite
+
+![](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+
+Hi and welcome !!
+
+#### To deploy this app with docker:
 - First, install [Docker Compose](https://docs.docker.com/compose/install)
 - To deploy the app, run the following commands in a directory of your choice
 ```sh
@@ -10,7 +18,7 @@ cd angels-table
 docker compose up --build 
 ```
 
-To use this app in development:
+#### To use this app in development:
 ```sh
 git clone https://github.com/rakrab/angels-table.git
 cd angels-table

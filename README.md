@@ -11,12 +11,12 @@ Hi and welcome !!
 #### To deploy this app with docker:
 - First, install [Docker Compose](https://docs.docker.com/compose/install)
 - To deploy the app, run the following commands in a directory of your choice
-- If the database gets deleted or corrupted, you can re-initialize it with `node scripts/init-db.js`
 ```sh
 git clone https://github.com/rakrab/angels-table.git
 cd angels-table
 docker compose up --build 
 ```
+- If the database gets deleted or corrupted, you can re-initialize it with `node scripts/init-db.js`
 
 #### To use this app in development:
 ```sh
